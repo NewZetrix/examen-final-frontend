@@ -58,7 +58,7 @@ export function useIncidencias() {
       setIncidencias((prev) =>
         prev.map((inc) => (inc.id === id ? actualizada : inc))
       );
-      return actualizada;
+      return actualizar;
     } catch (err) {
       setError(
         err instanceof Error ? err.message : "No se pudo actualizar la incidencia."
