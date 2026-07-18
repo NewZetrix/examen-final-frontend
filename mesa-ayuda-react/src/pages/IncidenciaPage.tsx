@@ -27,8 +27,8 @@ export function IncidenciasPage() {
     return incidencias.filter((inc) => {
       const coincideBusqueda =
         busq === "" ||
-        inc.titulo.toLowerCase().includes(busq) ||
-        inc.codigo.toLowerCase().includes(busq);
+        (inc.titulo ?? "").toLowerCase().includes(busq) ||
+        (inc.codigo ?? "").toLowerCase().includes(busq);
       const coincidePrioridad =
         filtros.prioridad === "TODAS" || inc.prioridad === filtros.prioridad;
       const coincideEstado =
@@ -39,7 +39,7 @@ export function IncidenciasPage() {
 
   function actualizarFiltro<K extends keyof FiltrosIncidencia>(
     key: K,
-    value: FiltrosIncidencia[K]
+    value: FiltrosIncidencia[K],
   ) {
     setFiltros((prev) => ({ ...prev, [key]: value }));
   }
@@ -51,7 +51,14 @@ export function IncidenciasPage() {
   async function handleAvanzarEstado(inc: Incidencia) {
     const nuevo = siguienteEstado(inc.estado);
     if (nuevo) {
-      await editar(inc.id, { estado: nuevo });
+      await editar(inc.id, {
+        codigo: inc.codigo,
+        titulo: inc.titulo,
+        descripcion: inc.descripcion,
+        areaSolicitante: inc.areaSolicitante,
+        prioridad: inc.prioridad,
+        estado: nuevo,
+      });
     }
   }
 
@@ -89,9 +96,7 @@ export function IncidenciasPage() {
       />
 
       {loading ? (
-        <div className="text-center text-muted py-5">
-          Cargando incidencias…
-        </div>
+        <div className="text-center text-muted py-5">Cargando incidencias…</div>
       ) : incidenciasFiltradas.length === 0 ? (
         <div className="alert alert-light border text-center">
           No hay incidencias que coincidan con la búsqueda/filtros.
