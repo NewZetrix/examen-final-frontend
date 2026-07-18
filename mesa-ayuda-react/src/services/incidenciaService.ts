@@ -5,7 +5,7 @@ import type {
   IncidenciaUpdateData,
 } from "../data/incidenciaConfig";
 
-export const API_BASE_URL = "http://localhost:8080";
+export const API_BASE_URL = "https://backend-examenfinal.onrender.com";
 const ENDPOINT = "/api/incidencias";
 
 const api = axios.create({
