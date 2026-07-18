@@ -73,7 +73,6 @@ export async function crearIncidencia(
   const { data } = await api.post(ENDPOINT, mapToBackend(datos));
   return mapFromBackend(data);
 }
-
 export async function actualizarIncidencia(
   id: string,
   datos: IncidenciaUpdateData
