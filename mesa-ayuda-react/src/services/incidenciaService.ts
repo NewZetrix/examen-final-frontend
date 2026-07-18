@@ -43,14 +43,3 @@ export async function crearIncidencia(
   return mapFromBackend(data);
 }
 
-export async function actualizarIncidencia(
-  id: string,
-  datos: IncidenciaUpdateData
-): Promise<Incidencia> {
-  const { data } = await api.put(`${ENDPOINT}/${id}`, mapToBackend(datos));
-  return mapFromBackend(data);
-}
-
-export async function eliminarIncidencia(id: string): Promise<void> {
-  await api.delete(`${ENDPOINT}/${id}`);
-}
