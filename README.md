@@ -10,7 +10,7 @@ reportadas por los colaboradores de una empresa.
 - **Aplicación desplegada:** https://examen-final-frontend-ashen.vercel.app/incidencias
 - **API Backend:** https://backend-examenfinal.onrender.com/api/incidencias
 
-## 👥 Integrantes - Grupo 7
+## 👥 Integrantes - Grupo 7 (Frontend)
 
 | Integrante | Rol |
 |---|---|
