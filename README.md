@@ -18,7 +18,7 @@ reportadas por los colaboradores de una empresa.
 | _(Garcia)_ | Arquitectura, navegación y estructura del frontend |
 | _(Bedia)_ | Componentes, formularios y diseño de interfaz |
 | _(completar)_ | Servicios REST y desarrollo del backend (Spring Boot) |
-| _(Cosnilla)_ | Pruebas, validaciones, documentación y control de calidad |
+| _(Conislla)_ | Pruebas, validaciones, documentación y control de calidad |
 
 ## 🧰 Tecnologías
 
