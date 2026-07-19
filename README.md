@@ -34,13 +34,13 @@ Funcionalidades del frontend implementadas
 Funcionalidades del frontend implementadas
 - [x] Registrar incidencia (código, título, descripción, área, prioridad, estado, fecha)
 - [x] Listar incidencias en tarjetas
-• [x] Buscar por título o código
-• [x] Filtrar por prioridad y estado
-• [x] Editar incidencia
-• [x] Cambiar estado: Pendiente → En proceso → Resuelto
-• [x] Eliminar incidencia con confirmación
-• [x] Panel resumen con total y conteo por estado
-• [x] Navegación entre páginas (Listado, Nueva/Editar incidencia)
-• [x] Formularios con validaciones
-• [x] Manejo de estados de carga y error
-• [x] Diseño responsivo (Bootstrap)
+- [x] Buscar por título o código
+- [x] Filtrar por prioridad y estado
+- [x] Editar incidencia
+- [x] Cambiar estado: Pendiente → En proceso → Resuelto
+- [x] Eliminar incidencia con confirmación
+- [x] Panel resumen con total y conteo por estado
+- [x] Navegación entre páginas (Listado, Nueva/Editar incidencia)
+- [x] Formularios con validaciones
+- [x] Manejo de estados de carga y error
+- [x] Diseño responsivo (Bootstrap)
