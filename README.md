@@ -32,8 +32,8 @@ npm install #examen-final-frontend
 
 Funcionalidades del frontend implementadas
 Funcionalidades del frontend implementadas
-• [x] Registrar incidencia (código, título, descripción, área, prioridad, estado, fecha)
-• [x] Listar incidencias en tarjetas
+- [x] Registrar incidencia (código, título, descripción, área, prioridad, estado, fecha)
+- [x] Listar incidencias en tarjetas
 • [x] Buscar por título o código
 • [x] Filtrar por prioridad y estado
 • [x] Editar incidencia
