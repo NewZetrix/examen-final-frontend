@@ -19,15 +19,13 @@ reportadas por los colaboradores de una empresa.
 
 ## 🧰 Tecnologías
 
-- **Frontend:** React 18 + TypeScript + Vite
-- **Ruteo:** React Router DOM
-- **Consumo de API:** Axios
-- **Estilos:** Bootstrap 5 (responsivo)
-- **Backend:** Spring Boot (REST API), desplegado en Render
-- **Despliegue frontend:** Vercel
+- React 18 + TypeScript + Vite
+- React Router DOM (ruteo)
+- Axios (consumo de API REST)
+- Bootstrap 5 (estilos, diseño responsivo)
+- Despliegue: Vercel
 
 ## 📦 Instalación
 
-```bash
 cd mesa-ayuda-react
-npm install# examen-final-frontend
+npm install #examen-final-frontend
