@@ -27,8 +27,9 @@ reportadas por los colaboradores de una empresa.
 
 ## 📦 Instalación
 
-cd mesa-ayuda-react
-npm install #examen-final-frontend
+- cd mesa-ayuda-react
+- npm install
+- npm run dev
 
 ## ▶️Funcionalidades del frontend implementadas
 - [x] Registrar incidencia (código, título, descripción, área, prioridad, estado, fecha)
