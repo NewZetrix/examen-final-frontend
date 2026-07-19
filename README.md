@@ -14,11 +14,11 @@ reportadas por los colaboradores de una empresa.
 
 | Integrante | Rol |
 |---|---|
-| _(completar)_ | Coordinación general y administración del repositorio |
-| _(Garcia)_ | Arquitectura, navegación y estructura del frontend |
-| _(Bedia)_ | Componentes, formularios y diseño de interfaz |
-| _(completar)_ | Servicios REST y desarrollo del backend (Spring Boot) |
-| _(Conislla)_ | Pruebas, validaciones, documentación y control de calidad |
+| _(De La Cruz Panduro)_ | Coordinación general y administración del repositorio |
+| _(Garcia Muñoz)_ | Arquitectura, navegación y estructura del frontend |
+| _(Bedia Castillo, Garcia Muñoz)_ | Componentes, formularios y diseño de interfaz |
+| _(Conislla Lavado - De la Cruz Panduro)_ | Servicios REST y desarrollo del backend (Spring Boot) |
+| _(Conislla Lavado)_ | Pruebas, validaciones, documentación y control de calidad |
 
 ## 🧰 Tecnologías
 
