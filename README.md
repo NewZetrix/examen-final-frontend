@@ -14,11 +14,8 @@ reportadas por los colaboradores de una empresa.
 
 | Integrante | Rol |
 |---|---|
-| _(De La Cruz Panduro Rai Caleb)_ | Coordinación general y administración del repositorio |
 | _(Bedia Castillo Jhon Antonio)_ | Arquitectura, navegación y estructura del frontend |
 | _(Garcia Muñoz Leonardo Adrian)_ | Componentes, formularios y diseño de interfaz |
-| _(De La Cruz Panduro Rai Caleb)_ | Servicios REST y desarrollo del backend |
-| _(Conislla Lavado Cesar Jesus)_ | Pruebas, validaciones, documentación y control de calidad |
 
 ## 🧰 Tecnologías
 
