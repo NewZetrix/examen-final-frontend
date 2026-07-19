@@ -30,8 +30,7 @@ reportadas por los colaboradores de una empresa.
 cd mesa-ayuda-react
 npm install #examen-final-frontend
 
-Funcionalidades del frontend implementadas
-Funcionalidades del frontend implementadas
+## ▶️Funcionalidades del frontend implementadas
 - [x] Registrar incidencia (código, título, descripción, área, prioridad, estado, fecha)
 - [x] Listar incidencias en tarjetas
 - [x] Buscar por título o código
@@ -44,3 +43,22 @@ Funcionalidades del frontend implementadas
 - [x] Formularios con validaciones
 - [x] Manejo de estados de carga y error
 - [x] Diseño responsivo (Bootstrap)
+
+## 🗂Estructura del proyecto
+src/
+├─ components/
+│  ├─ IncidenciaForm.tsx      → formulario crear/editar
+│  ├─ IncidenciaCard.tsx      → tarjeta individual de incidencia
+│  ├─ FiltrosBar.tsx          → búsqueda + filtros de prioridad/estado
+│  ├─ ResumenPanel.tsx        → contadores por estado
+│  └─ ConfirmModal.tsx        → confirmación antes de eliminar
+├─ pages/
+│  ├─ IncidenciasPage.tsx     → listado + filtros + resumen
+│  └─ NuevaIncidenciaPage.tsx → registrar/editar (ruta propia)
+├─ hooks/
+│  └─ useIncidencias.ts       → CRUD completo (list, create, update, delete)
+├─ services/
+│  └─ incidenciaService.ts    → llamadas REST al backend
+├─ data/
+│  └─ incidenciaConfig.ts     → tipos, opciones de prioridad/estado, validaciones
+└─ App.tsx                    → rutas (React Router)
